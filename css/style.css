@@ -1,6 +1,8 @@
 body{margin:1;background-color:#bbb;}
 .header-content{margin:0px;background-color:black;height:400px;}
 
+.main-menu{background-color:yellow;display:flex;padding:1em;}
+
 @media screen and (min-width:400px){
 .header{display:flex;flex-flow:column;justify-content:center;flex-grow:1;}
 .header-title{color:white;text-align:center;font-size:3.5em}
