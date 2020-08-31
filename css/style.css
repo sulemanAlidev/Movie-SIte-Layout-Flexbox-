@@ -2,12 +2,12 @@
 .main-menu{background-color: yellow; height: 40px; color: black;font-size:2em;}
 .header-title{text-transform: uppercase; text-align: center; font-size: 100px;}
 .header-detail{font-style: italic; text-align: center; font-size:40px ;} 
-
-
+.main-menu a{text-decoration:none;color:black; }
+.navigation a{background-color: green;}
 
 @media screen and (min-width:1300px){
 .header-info{display: flex;flex-flow: column; }
-.header-content{flex-grow: 1; display: flex;flex-flow: column; justify-content: center; }
-
-
+.header-content{flex-grow: 1; display: flex;flex-flow: column;  justify-content: center;}
+.navigation { display: flex; flex-flow: row; justify-content: space-around;  }
+.navigation a{flex-grow: 1; text-align: center;margin-right: 3px; }
 }
