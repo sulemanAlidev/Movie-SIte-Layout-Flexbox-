@@ -1,3 +1,4 @@
+body{background-color: wheat;}
 .header-info{height:400px;background-color:black; color: white;}
 .main-menu{background-color: yellow; height: 40px; color: black;font-size:2em;}
 .header-title{text-transform: uppercase; text-align: center; font-size: 100px;}
@@ -5,9 +6,20 @@
 .main-menu a{text-decoration:none;color:black; }
 .navigation a{background-color: green;}
 
-@media screen and (min-width:1300px){
+.post{margin-bottom: 1em; padding:50px; background-color: white;}
+
+@media screen and (max-width:1400px){
 .header-info{display: flex;flex-flow: column; }
 .header-content{flex-grow: 1; display: flex;flex-flow: column;  justify-content: center;}
 .navigation { display: flex; flex-flow: row; justify-content: space-around;  }
 .navigation a{flex-grow: 1; text-align: center;margin-right: 3px; }
+.right-sidebar{background-color:blue;width: 350px; }
+.all-content {display: flex;justify-content: flex-end; }
+.posts{display:flex;flex-flow: column; flex-grow: 1;}
+.footer{background-color: violet; text-align: center; height: 1.8em;font-size:1.5em; }
+
+}
+@media screen and (max-width:480px){
+    .all-content {display: flex;flex-flow: column; justify-content: flex-end; }
+    .right-sidebar{background-color: tomato;width: 450px; }
 }
